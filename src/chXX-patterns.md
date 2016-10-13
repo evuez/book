@@ -248,7 +248,7 @@ match numbers {
 }
 ```
 
-If you want, you can use `..` to ignore all of the parts you haven't defined:
+If you want, you can use `..` to ignore all the parts you haven't defined:
 
 ```rust
 struct Point {
@@ -303,7 +303,7 @@ match x {
 }
 ```
 
-If youre using if with multiple patterns, the if applies to both sides:
+If youre using `if` with multiple patterns, the `if` applies to both sides:
 
 ```rust
 let x = 4;
@@ -315,8 +315,8 @@ match x {
 }
 ```
 
-This prints `no`, because the if applies to the whole of `4 | 5`, and not to only
-the `5`. In other words, the precedence of if behaves like this:
+This prints `no`, because the `if` applies to the whole of `4 | 5`, and not to only
+the `5`. In other words, the precedence of `if` behaves like this:
 
 ```text
 (4 | 5) if y => ...

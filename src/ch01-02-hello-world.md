@@ -164,7 +164,7 @@ hand, they need to have a Ruby, Python, or JavaScript implementation installed
 program. Everything is a tradeoff in language design.
 
 Just compiling with `rustc` is fine for simple programs, but as your project
-grows, you'll want to be able to manage all of the options your project has
+grows, you'll want to be able to manage all the options your project has
 and make it easy to share your code with other people and projects. Next, we'll
 introduce you to a tool called Cargo, which will help you write real-world Rust
 programs.

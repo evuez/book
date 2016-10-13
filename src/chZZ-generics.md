@@ -20,7 +20,7 @@ re-use, and unlock a lot of powerful techniques.
 
 ## Generic data types
 
-'Generics' let us write code that allows for several different types, while
+'Generics' let us write code that allows for several types, while
 letting us have one definition. A more generic `Point` would look like this:
 
 ```rust
@@ -126,7 +126,7 @@ fn foo<T>(x: T) {
 ```
 
 This `foo` function has one generic parameter, `T`, and takes one argument,
-`x`, which has the type `T`. Let's talk a little bit more about what this means.
+`x`, which has the type `T`. Let's talk a little more about what this means.
 
 
 ## Generic methods
